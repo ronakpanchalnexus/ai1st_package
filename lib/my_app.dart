@@ -1,6 +1,7 @@
 import 'package:ai1st_package/core/constants/colours.dart';
 import 'package:ai1st_package/core/constants/constants.dart';
 import 'package:ai1st_package/core/constants/strings.dart';
+import 'package:ai1st_package/core/di/injection_container.dart';
 import 'package:ai1st_package/core/helper/build_context.dart';
 import 'package:ai1st_package/core/helper/prefs.dart';
 import 'package:ai1st_package/core/helper/theme_utils.dart';
@@ -12,32 +13,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get_it/get_it.dart';
-
-class InitPackage extends StatefulWidget {
-  const InitPackage({super.key});
-
-  @override
-  State<InitPackage> createState() => _InitPackageState();
-}
-
-class _InitPackageState extends State<InitPackage> {
-  @override
-  void initState() async {
-    WidgetsFlutterBinding.ensureInitialized();
-    await EasyLocalization.ensureInitialized();
-    EasyLocalization.logger.enableBuildModes = [];
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-    ]);
-
-    super.initState();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return MyApp();
-  }
-}
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -52,6 +27,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
+    initAllItems();
     WidgetsBinding.instance.addObserver(this);
     _brightness = WidgetsBinding.instance.platformDispatcher.platformBrightness;
   }
@@ -137,5 +113,15 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
         ),
       ),
     );
+  }
+
+  Future<void> initAllItems() async {
+    init();
+    WidgetsFlutterBinding.ensureInitialized();
+    await EasyLocalization.ensureInitialized();
+    EasyLocalization.logger.enableBuildModes = [];
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
   }
 }
