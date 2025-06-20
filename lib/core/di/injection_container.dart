@@ -1,0 +1,20 @@
+import 'package:ai1st_package/src/features/authentication/domain/usecases/forgot_password_use_case.dart';
+import 'package:ai1st_package/src/features/courses/data/datasources/courses_remote_data.dart';
+import 'package:ai1st_package/src/features/courses/data/repo/courses_repo_impl.dart';
+import 'package:ai1st_package/src/features/courses/domain/repo/courses_repo.dart';
+import 'package:ai1st_package/src/features/courses/domain/usecases/course_detail_use_case.dart';
+import 'package:ai1st_package/src/features/courses/domain/usecases/course_list_use_case.dart';
+import 'package:ai1st_package/src/features/courses/domain/usecases/mark_topic_complete_use_case.dart';
+import 'package:ai1st_package/src/features/courses/domain/usecases/video_library_use_case.dart';
+import 'package:ai1st_package/src/features/courses/presentation/bloc/courses_bloc.dart';
+import 'package:dio/dio.dart';
+import 'package:get_it/get_it.dart';
+import 'package:ai1st_package/core/helper/build_context.dart';
+import 'package:ai1st_package/core/helper/prefs.dart';
+import 'package:ai1st_package/src/features/authentication/data/datasources/authentication_remote_data.dart';
+import 'package:ai1st_package/src/features/authentication/data/repo/authentication_repo_impl.dart';
+import 'package:ai1st_package/src/features/authentication/domain/repo/authentication_repo.dart';
+import 'package:ai1st_package/src/features/authentication/domain/usecases/sign_in_use_case.dart';
+import 'package:ai1st_package/src/features/authentication/presentation/bloc/authentication_bloc.dart';
+
+part 'injection_container_main.dart';

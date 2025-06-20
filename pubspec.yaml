@@ -1,0 +1,66 @@
+name: ai1st_package
+description: "A new Flutter project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  flutter_screenutil: ^5.9.3
+  easy_localization: ^3.0.7+1
+  flutter_svg: ^2.0.17
+  keyboard_actions: ^4.2.0
+  cached_network_image: ^3.4.1
+  connectivity_plus: ^6.1.4
+  get_it: ^8.0.3
+  dio: ^5.8.0+1
+  bloc: ^9.0.0
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.0
+  better_player_plus: ^1.0.8
+  url_launcher: ^6.3.1
+  flutter_pdfview: ^1.4.0+1
+  path_provider: ^2.1.5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/lang/
+  fonts:
+    - family: FuturaNowHeadlineBlackItalic
+      fonts:
+        - asset: assets/fonts/FuturaNowHeadlineBlackItalic.ttf
+    - family: FuturaNowHeadlineLight
+      fonts:
+        - asset: assets/fonts/FuturaNowHeadlineLight.ttf
+    - family: FuturaNowHeadlineMedium
+      fonts:
+        - asset: assets/fonts/FuturaNowHeadlineMedium.ttf
+    - family: FuturaNowHeadlineRegular
+      fonts:
+        - asset: assets/fonts/FuturaNowHeadlineRegular.ttf
+    - family: FuturaNowHeadlineBold
+      fonts:
+        - asset: assets/fonts/FuturaNowHeadlineBold.ttf
+    - family: futuraNowHeadlineMediumItalic
+      fonts:
+        - asset: assets/fonts/futuraNowHeadlineMediumItalic.ttf
