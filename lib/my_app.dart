@@ -6,24 +6,37 @@ import 'package:ai1st_package/core/helper/prefs.dart';
 import 'package:ai1st_package/core/helper/theme_utils.dart';
 import 'package:ai1st_package/core/routes/router.dart';
 import 'package:ai1st_package/src/features/authentication/presentation/bloc/authentication_bloc.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get_it/get_it.dart';
-import 'package:easy_localization/easy_localization.dart';
 
-import 'core/di/injection_container.dart';
+class InitPackage extends StatefulWidget {
+  const InitPackage({super.key});
 
-Future<Widget> initPackage() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await EasyLocalization.ensureInitialized();
-  EasyLocalization.logger.enableBuildModes = [];
-  SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-  ]);
-  await init();
-  return MyApp();
+  @override
+  State<InitPackage> createState() => _InitPackageState();
+}
+
+class _InitPackageState extends State<InitPackage> {
+  @override
+  void initState() async {
+    WidgetsFlutterBinding.ensureInitialized();
+    await EasyLocalization.ensureInitialized();
+    EasyLocalization.logger.enableBuildModes = [];
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
+
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MyApp();
+  }
 }
 
 class MyApp extends StatefulWidget {
@@ -54,7 +67,8 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
     super.didChangePlatformBrightness();
     if (!mounted) return;
     setState(() {
-      _brightness = WidgetsBinding.instance.platformDispatcher.platformBrightness;
+      _brightness =
+          WidgetsBinding.instance.platformDispatcher.platformBrightness;
       Prefs.setBool(
         key: Constants.isDarkMode,
         value: _brightness != Brightness.light,
