@@ -13,20 +13,6 @@ Route<dynamic> generateRoute(
     );
   } else {
     switch (settings.name) {
-      case RouteConstants.splash:
-        return _pageBuilder(
-          (_) => SplashScreen(),
-          settings: settings,
-          reverseAnimation: reverseAnimation,
-        );
-
-      case RouteConstants.login:
-        return _pageBuilder(
-          (_) => LoginScreen(),
-          settings: settings,
-          reverseAnimation: reverseAnimation,
-        );
-
       case RouteConstants.home:
         return _pageBuilder(
           (_) => HomeScreen(),

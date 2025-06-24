@@ -6,7 +6,6 @@ import 'package:ai1st_package/src/features/authentication/presentation/view/edit
 import 'package:ai1st_package/src/features/courses/presentation/view/course_detail_screen.dart';
 import 'package:ai1st_package/src/features/authentication/presentation/view/home_screen.dart';
 import 'package:ai1st_package/src/features/authentication/presentation/view/login_screen.dart';
-import 'package:ai1st_package/src/features/authentication/presentation/view/splash_screen.dart';
 import 'package:ai1st_package/src/features/courses/presentation/view/download_certificate_screen.dart';
 import 'package:ai1st_package/src/features/courses/presentation/view/video_detail_screen.dart';
 import 'package:flutter/material.dart';

@@ -5,6 +5,7 @@ import 'package:ai1st_package/core/di/injection_container.dart';
 import 'package:ai1st_package/core/helper/build_context.dart';
 import 'package:ai1st_package/core/helper/prefs.dart';
 import 'package:ai1st_package/core/helper/theme_utils.dart';
+import 'package:ai1st_package/core/helper/utils.dart';
 import 'package:ai1st_package/core/routes/router.dart';
 import 'package:ai1st_package/src/features/authentication/presentation/bloc/authentication_bloc.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -45,6 +46,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
     setState(() {
       _brightness =
           WidgetsBinding.instance.platformDispatcher.platformBrightness;
+      Utils.log('-> bearer is ${Prefs.getString(key: Constants.accessToken)}');
       Prefs.setBool(
         key: Constants.isDarkMode,
         value: _brightness != Brightness.light,

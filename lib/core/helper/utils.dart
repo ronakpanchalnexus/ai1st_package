@@ -268,7 +268,8 @@ class Utils {
     if (context.mounted) {
       navigateTo(
         context: context,
-        route: RouteConstants.login,
+        route: RouteConstants.home,
+        // route: RouteConstants.login,
         finishAll: true,
       );
     }
@@ -302,7 +303,8 @@ class Utils {
     if (mContext.mounted) {
       navigateTo(
         context: mContext,
-        route: RouteConstants.login,
+        route: RouteConstants.home,
+        // route: RouteConstants.login,
         finishAll: true,
       );
     }
