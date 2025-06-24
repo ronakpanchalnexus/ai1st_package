@@ -31,8 +31,7 @@ _initAuth() async {
     )
     ..registerLazySingleton<AuthenticationRemoteDataSource>(
       () => AuthenticationRemoteDataSourceImplementation(dio: sl()),
-    )
-    ..registerLazySingleton(() => Dio());
+    );
 }
 
 _initCourses() async {
