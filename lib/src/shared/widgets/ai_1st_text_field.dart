@@ -1,10 +1,10 @@
 import 'dart:async';
 
-import 'package:ai1st_package/core/constants/colours.dart';
-import 'package:ai1st_package/core/constants/fonts.dart';
-import 'package:ai1st_package/core/constants/media_res.dart';
-import 'package:ai1st_package/src/shared/safe_gesture_detector.dart';
-import 'package:ai1st_package/src/shared/widgets/ai_1st_textview.dart';
+import 'package:bestforming_cac/core/constants/colours.dart';
+import 'package:bestforming_cac/core/constants/fonts.dart';
+import 'package:bestforming_cac/core/constants/media_res.dart';
+import 'package:bestforming_cac/src/shared/safe_gesture_detector.dart';
+import 'package:bestforming_cac/src/shared/widgets/ai_1st_textview.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

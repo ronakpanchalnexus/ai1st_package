@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:ai1st_package/src/features/courses/data/models/course_detail_model.dart';
-import 'package:ai1st_package/src/features/courses/domain/entity/course_list_entity.dart';
+import 'package:bestforming_cac/src/features/courses/data/models/course_detail_model.dart';
+import 'package:bestforming_cac/src/features/courses/domain/entity/course_list_entity.dart';
 
 CourseListModel courseListModelFromJson(String str) =>
     CourseListModel.fromJson(json.decode(str));

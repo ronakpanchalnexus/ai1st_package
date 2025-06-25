@@ -1,5 +1,5 @@
-import 'package:ai1st_package/core/constants/constants.dart';
-import 'package:ai1st_package/core/helper/prefs.dart';
+import 'package:bestforming_cac/core/constants/constants.dart';
+import 'package:bestforming_cac/core/helper/prefs.dart';
 import 'package:flutter/material.dart';
 
 class ThemeUtils {

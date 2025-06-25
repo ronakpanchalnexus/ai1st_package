@@ -1,7 +1,7 @@
-import 'package:ai1st_package/core/constants/colours.dart';
-import 'package:ai1st_package/core/constants/media_res.dart';
-import 'package:ai1st_package/src/shared/widgets/ai_1st_card_view.dart';
-import 'package:ai1st_package/src/shared/widgets/ai_1st_textview.dart';
+import 'package:bestforming_cac/core/constants/colours.dart';
+import 'package:bestforming_cac/core/constants/media_res.dart';
+import 'package:bestforming_cac/src/shared/widgets/ai_1st_card_view.dart';
+import 'package:bestforming_cac/src/shared/widgets/ai_1st_textview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 

@@ -1,4 +1,4 @@
-import 'package:ai1st_package/core/constants/strings.dart';
+import 'package:bestforming_cac/core/constants/strings.dart';
 
 class ValidationHelper {
   static bool emailValidator(context, String email, Function(String?) error) {

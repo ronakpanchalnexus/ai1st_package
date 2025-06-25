@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:ai1st_package/core/constants/constants.dart';
-import 'package:ai1st_package/core/helper/prefs.dart';
-import 'package:ai1st_package/core/helper/utils.dart';
+import 'package:bestforming_cac/core/constants/constants.dart';
+import 'package:bestforming_cac/core/helper/prefs.dart';
+import 'package:bestforming_cac/core/helper/utils.dart';
 
 class ApiConstant {
   /// stage url

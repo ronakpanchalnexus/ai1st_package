@@ -1,4 +1,4 @@
-library ai1st_package;
+library bestforming_cac;
 
 // Export core features
 export 'core/constants/colours.dart';

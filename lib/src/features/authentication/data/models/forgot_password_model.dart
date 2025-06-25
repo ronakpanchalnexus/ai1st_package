@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:ai1st_package/src/features/authentication/domain/entity/forgot_password_entity.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/entity/forgot_password_entity.dart';
 
 ForgotPasswordModel forgotPasswordModelFromJson(String str) =>
     ForgotPasswordModel.fromJson(json.decode(str));

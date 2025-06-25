@@ -1,5 +1,5 @@
-import 'package:ai1st_package/core/constants/colours.dart';
-import 'package:ai1st_package/core/constants/media_res.dart';
+import 'package:bestforming_cac/core/constants/colours.dart';
+import 'package:bestforming_cac/core/constants/media_res.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 

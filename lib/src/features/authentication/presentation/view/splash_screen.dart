@@ -1,7 +1,7 @@
-import 'package:ai1st_package/core/constants/colours.dart';
-import 'package:ai1st_package/core/constants/media_res.dart';
-import 'package:ai1st_package/core/routes/route_constants.dart';
-import 'package:ai1st_package/core/routes/router.dart';
+import 'package:bestforming_cac/core/constants/colours.dart';
+import 'package:bestforming_cac/core/constants/media_res.dart';
+import 'package:bestforming_cac/core/routes/route_constants.dart';
+import 'package:bestforming_cac/core/routes/router.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

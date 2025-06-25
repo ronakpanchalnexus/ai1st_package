@@ -1,5 +1,5 @@
-import 'package:ai1st_package/core/constants/colours.dart';
-import 'package:ai1st_package/src/shared/safe_gesture_detector.dart';
+import 'package:bestforming_cac/core/constants/colours.dart';
+import 'package:bestforming_cac/src/shared/safe_gesture_detector.dart';
 import 'package:flutter/material.dart';
 
 class AI1stCardView extends StatelessWidget {

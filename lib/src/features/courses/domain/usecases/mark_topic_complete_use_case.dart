@@ -1,7 +1,7 @@
-import 'package:ai1st_package/core/usecases/usecases.dart';
-import 'package:ai1st_package/src/features/courses/domain/entity/mark_topic_complete_entity.dart';
-import 'package:ai1st_package/src/features/courses/domain/repo/courses_repo.dart';
-import 'package:ai1st_package/src/shared/data_state.dart';
+import 'package:bestforming_cac/core/usecases/usecases.dart';
+import 'package:bestforming_cac/src/features/courses/domain/entity/mark_topic_complete_entity.dart';
+import 'package:bestforming_cac/src/features/courses/domain/repo/courses_repo.dart';
+import 'package:bestforming_cac/src/shared/data_state.dart';
 import 'package:equatable/equatable.dart';
 
 class MarkTopicCompleteUseCase extends FutureUsecaseWithParams<

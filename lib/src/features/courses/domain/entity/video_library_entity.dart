@@ -1,4 +1,4 @@
-import 'package:ai1st_package/src/features/courses/data/models/video_library_model.dart';
+import 'package:bestforming_cac/src/features/courses/data/models/video_library_model.dart';
 import 'package:equatable/equatable.dart';
 
 class VideoLibraryEntity extends Equatable {

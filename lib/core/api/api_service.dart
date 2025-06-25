@@ -1,4 +1,4 @@
-import 'package:ai1st_package/core/api/api_constant.dart';
+import 'package:bestforming_cac/core/api/api_constant.dart';
 import 'package:dio/dio.dart';
 
 import 'api_client.dart';

@@ -1,8 +1,8 @@
-import 'package:ai1st_package/src/features/authentication/domain/entity/forgot_password_entity.dart';
-import 'package:ai1st_package/src/features/authentication/domain/entity/sign_in_entity.dart';
-import 'package:ai1st_package/src/features/authentication/domain/usecases/forgot_password_use_case.dart';
-import 'package:ai1st_package/src/features/authentication/domain/usecases/sign_in_use_case.dart';
-import 'package:ai1st_package/src/shared/data_state.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/entity/forgot_password_entity.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/entity/sign_in_entity.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/usecases/forgot_password_use_case.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/usecases/sign_in_use_case.dart';
+import 'package:bestforming_cac/src/shared/data_state.dart';
 import 'package:bloc/bloc.dart';
 import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';

@@ -1,4 +1,4 @@
-import 'package:ai1st_package/src/features/authentication/data/models/sign_in_model.dart';
+import 'package:bestforming_cac/src/features/authentication/data/models/sign_in_model.dart';
 import 'package:equatable/equatable.dart';
 
 class SignInEntity extends Equatable {

@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:ai1st_package/core/constants/colours.dart';
-import 'package:ai1st_package/core/constants/fonts.dart';
-import 'package:ai1st_package/core/constants/strings.dart';
-import 'package:ai1st_package/src/shared/widgets/ai_1st_button.dart';
-import 'package:ai1st_package/src/shared/widgets/ai_1st_textview.dart';
+import 'package:bestforming_cac/core/constants/colours.dart';
+import 'package:bestforming_cac/core/constants/fonts.dart';
+import 'package:bestforming_cac/core/constants/strings.dart';
+import 'package:bestforming_cac/src/shared/widgets/ai_1st_button.dart';
+import 'package:bestforming_cac/src/shared/widgets/ai_1st_textview.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

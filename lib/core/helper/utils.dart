@@ -1,14 +1,14 @@
 import 'dart:ui' as ui;
 
-import 'package:ai1st_package/core/constants/colours.dart';
-import 'package:ai1st_package/core/constants/constants.dart';
-import 'package:ai1st_package/core/constants/strings.dart';
-import 'package:ai1st_package/core/helper/build_context.dart';
-import 'package:ai1st_package/core/helper/prefs.dart';
-import 'package:ai1st_package/core/routes/route_constants.dart';
-import 'package:ai1st_package/core/routes/router.dart';
-import 'package:ai1st_package/src/shared/safe_gesture_detector.dart';
-import 'package:ai1st_package/src/shared/widgets/ai_1st_textview.dart';
+import 'package:bestforming_cac/core/constants/colours.dart';
+import 'package:bestforming_cac/core/constants/constants.dart';
+import 'package:bestforming_cac/core/constants/strings.dart';
+import 'package:bestforming_cac/core/helper/build_context.dart';
+import 'package:bestforming_cac/core/helper/prefs.dart';
+import 'package:bestforming_cac/core/routes/route_constants.dart';
+import 'package:bestforming_cac/core/routes/router.dart';
+import 'package:bestforming_cac/src/shared/safe_gesture_detector.dart';
+import 'package:bestforming_cac/src/shared/widgets/ai_1st_textview.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';

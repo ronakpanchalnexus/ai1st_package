@@ -1,18 +1,18 @@
 import 'dart:convert';
 
-import 'package:ai1st_package/core/api/api_constant.dart';
-import 'package:ai1st_package/core/api/api_service.dart';
-import 'package:ai1st_package/core/constants/constants.dart';
-import 'package:ai1st_package/core/constants/strings.dart';
-import 'package:ai1st_package/core/helper/prefs.dart';
-import 'package:ai1st_package/core/helper/utils.dart';
-import 'package:ai1st_package/src/features/courses/data/models/course_detail_model.dart';
-import 'package:ai1st_package/src/features/courses/data/models/course_list_model.dart';
-import 'package:ai1st_package/src/features/courses/data/models/mark_topic_complete_model.dart';
-import 'package:ai1st_package/src/features/courses/data/models/video_library_model.dart';
-import 'package:ai1st_package/src/features/courses/domain/usecases/course_detail_use_case.dart';
-import 'package:ai1st_package/src/features/courses/domain/usecases/mark_topic_complete_use_case.dart';
-import 'package:ai1st_package/src/shared/data_state.dart';
+import 'package:bestforming_cac/core/api/api_constant.dart';
+import 'package:bestforming_cac/core/api/api_service.dart';
+import 'package:bestforming_cac/core/constants/constants.dart';
+import 'package:bestforming_cac/core/constants/strings.dart';
+import 'package:bestforming_cac/core/helper/prefs.dart';
+import 'package:bestforming_cac/core/helper/utils.dart';
+import 'package:bestforming_cac/src/features/courses/data/models/course_detail_model.dart';
+import 'package:bestforming_cac/src/features/courses/data/models/course_list_model.dart';
+import 'package:bestforming_cac/src/features/courses/data/models/mark_topic_complete_model.dart';
+import 'package:bestforming_cac/src/features/courses/data/models/video_library_model.dart';
+import 'package:bestforming_cac/src/features/courses/domain/usecases/course_detail_use_case.dart';
+import 'package:bestforming_cac/src/features/courses/domain/usecases/mark_topic_complete_use_case.dart';
+import 'package:bestforming_cac/src/shared/data_state.dart';
 import 'package:dio/dio.dart';
 
 abstract class CoursesRemoteDataSource {

@@ -1,9 +1,9 @@
-import 'package:ai1st_package/core/constants/constants.dart';
-import 'package:ai1st_package/core/di/injection_container.dart';
-import 'package:ai1st_package/core/helper/build_context.dart';
-import 'package:ai1st_package/core/helper/prefs.dart';
-import 'package:ai1st_package/core/helper/utils.dart';
-import 'package:ai1st_package/src/features/authentication/presentation/view/home_screen.dart';
+import 'package:bestforming_cac/core/constants/constants.dart';
+import 'package:bestforming_cac/core/di/injection_container.dart';
+import 'package:bestforming_cac/core/helper/build_context.dart';
+import 'package:bestforming_cac/core/helper/prefs.dart';
+import 'package:bestforming_cac/core/helper/utils.dart';
+import 'package:bestforming_cac/src/features/authentication/presentation/view/home_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

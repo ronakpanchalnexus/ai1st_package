@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:ai1st_package/src/features/courses/domain/entity/course_detail_entity.dart';
+import 'package:bestforming_cac/src/features/courses/domain/entity/course_detail_entity.dart';
 import 'package:flutter/material.dart';
 
 CourseDetailModel courseDetailModelFromJson(String str) =>

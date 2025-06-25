@@ -1,9 +1,9 @@
-import 'package:ai1st_package/core/constants/colours.dart';
-import 'package:ai1st_package/core/constants/fonts.dart';
-import 'package:ai1st_package/core/helper/utils.dart';
-import 'package:ai1st_package/src/features/courses/data/models/video_library_model.dart';
-import 'package:ai1st_package/src/features/courses/presentation/bloc/courses_bloc.dart';
-import 'package:ai1st_package/src/shared/widgets/ai_1st_textview.dart';
+import 'package:bestforming_cac/core/constants/colours.dart';
+import 'package:bestforming_cac/core/constants/fonts.dart';
+import 'package:bestforming_cac/core/helper/utils.dart';
+import 'package:bestforming_cac/src/features/courses/data/models/video_library_model.dart';
+import 'package:bestforming_cac/src/features/courses/presentation/bloc/courses_bloc.dart';
+import 'package:bestforming_cac/src/shared/widgets/ai_1st_textview.dart';
 import 'package:better_player_plus/better_player_plus.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

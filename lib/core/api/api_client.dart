@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:ai1st_package/core/api/api_constant.dart';
-import 'package:ai1st_package/core/helper/utils.dart';
+import 'package:bestforming_cac/core/api/api_constant.dart';
+import 'package:bestforming_cac/core/helper/utils.dart';
 import 'package:dio/dio.dart';
 
 class HttpClient<T> {

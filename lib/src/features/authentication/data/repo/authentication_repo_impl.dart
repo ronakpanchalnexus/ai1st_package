@@ -1,10 +1,10 @@
-import 'package:ai1st_package/src/features/authentication/data/models/forgot_password_model.dart';
+import 'package:bestforming_cac/src/features/authentication/data/models/forgot_password_model.dart';
 import 'package:dio/dio.dart';
-import 'package:ai1st_package/src/features/authentication/data/datasources/authentication_remote_data.dart';
-import 'package:ai1st_package/src/features/authentication/data/models/sign_in_model.dart';
-import 'package:ai1st_package/src/features/authentication/domain/repo/authentication_repo.dart';
-import 'package:ai1st_package/src/features/authentication/domain/usecases/sign_in_use_case.dart';
-import 'package:ai1st_package/src/shared/data_state.dart';
+import 'package:bestforming_cac/src/features/authentication/data/datasources/authentication_remote_data.dart';
+import 'package:bestforming_cac/src/features/authentication/data/models/sign_in_model.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/repo/authentication_repo.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/usecases/sign_in_use_case.dart';
+import 'package:bestforming_cac/src/shared/data_state.dart';
 
 class AuthenticationRepoImplementation implements AuthenticationRepo {
   const AuthenticationRepoImplementation(this._remoteDataSource);

@@ -1,13 +1,13 @@
 import 'dart:convert';
 
-import 'package:ai1st_package/core/api/api_constant.dart';
-import 'package:ai1st_package/core/api/api_service.dart';
-import 'package:ai1st_package/core/constants/strings.dart';
-import 'package:ai1st_package/core/helper/utils.dart';
-import 'package:ai1st_package/src/features/authentication/data/models/forgot_password_model.dart';
-import 'package:ai1st_package/src/features/authentication/data/models/sign_in_model.dart';
-import 'package:ai1st_package/src/features/authentication/domain/usecases/sign_in_use_case.dart';
-import 'package:ai1st_package/src/shared/data_state.dart';
+import 'package:bestforming_cac/core/api/api_constant.dart';
+import 'package:bestforming_cac/core/api/api_service.dart';
+import 'package:bestforming_cac/core/constants/strings.dart';
+import 'package:bestforming_cac/core/helper/utils.dart';
+import 'package:bestforming_cac/src/features/authentication/data/models/forgot_password_model.dart';
+import 'package:bestforming_cac/src/features/authentication/data/models/sign_in_model.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/usecases/sign_in_use_case.dart';
+import 'package:bestforming_cac/src/shared/data_state.dart';
 import 'package:dio/dio.dart';
 
 abstract class AuthenticationRemoteDataSource {

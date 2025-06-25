@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:ai1st_package/src/features/courses/domain/entity/mark_topic_complete_entity.dart';
+import 'package:bestforming_cac/src/features/courses/domain/entity/mark_topic_complete_entity.dart';
 
 String markTopicCompleteModelToJson(MarkTopicCompleteModel data) =>
     json.encode(data.toJson());

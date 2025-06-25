@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ai1st_package/core/helper/build_context.dart';
+import 'package:bestforming_cac/core/helper/build_context.dart';
 
 class LoaderDialog {
   static AlertDialog? alert;

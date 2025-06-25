@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:ai1st_package/src/features/authentication/domain/entity/sign_in_entity.dart';
+import 'package:bestforming_cac/src/features/authentication/domain/entity/sign_in_entity.dart';
 
 SignInModel signInModelFromJson(String str) =>
     SignInModel.fromJson(json.decode(str));

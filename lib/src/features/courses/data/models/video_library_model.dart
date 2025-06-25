@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:ai1st_package/src/features/courses/domain/entity/video_library_entity.dart';
+import 'package:bestforming_cac/src/features/courses/domain/entity/video_library_entity.dart';
 
 VideoLibraryModel videoLibraryModelFromJson(String str) =>
     VideoLibraryModel.fromJson(json.decode(str));
